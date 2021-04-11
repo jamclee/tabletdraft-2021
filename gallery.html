@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="icon" href="imgs/favicon.ico"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria Script">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Gallery</title>
+</head>
+<body>
+    <!-- <div class="skip"><a href="#main">Skip to Main Content</a></div> -->
+	<header id="main">
+		<nav>
+			<ul>
+                <li id="logo">Jamie Lee</li>
+                <!-- <li><a href="index.html" class="active">Logo</a></li> -->
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "work.html">Work</a></li>
+                <!-- <div class="dropdown_content">
+                    <a href="youtube_music.html">User Research for YouTube Music</a>
+                    <a href="winning_futures.html">Outreach for Winning Futures</a>
+                    <a href="remote_hires.html">Onboarding for Remote Hires</a>
+                    <a href="wharton.html">Wharton EMBA Website Evaluation</a>
+                    <a href="#rta">Rehabilitation Through the Arts</a>
+                </div> -->
+				<li class="current"><a href = "about_me.html">About</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+				<!-- <li><a href = "files/jamie_lee_resume.pdf" target="_blank">Resume</a></li> -->
+			</ul>
+            <!-- <ul id="social">
+                <li><a href = "https://www.linkedin.com/in/jamie-c-lee/" target="_blank">LinkedIn Favicon</a></li>
+                <li><a href = "mailto: jamclee@umich.edu?subject = Portfolio Inquiries&body = Message" target="_blank">Email Favicon</a></li>
+            </ul> -->
+		</nav>
+    </header>
+
+	<main class="gallery_container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+              <img src="./images/usability_testing.PNG" style="width:20%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+              <img src="./images/interviews.PNG" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+              <img src="./images/personas.PNG" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+              <img src="./images/affinity_wall.PNG" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+              <img src="./images/heuristic_evaluation.PNG" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+              <img src="./images/music_competitors.jpg" style="width:100%">
+          </div>
+        <!--
+            <img src="./images/usability_testing.PNG" alt="Usability testing for multimodal interfaces">
+                
+                <p>User interviews</p>
+                <img src="./images/interviews.PNG" alt="User interviews">
+                <p>Persona development</p>
+                <img src="./images/personas.PNG" alt="Persona development">
+                <p>Affinity diagrams</p>
+                <img src="./images/affinity_wall.PNG" alt="Affinity diagram for organizing qualitative data">
+                <p>Heuristic evaluation</p>
+                <img src="./images/heuristic_evaluation.PNG" alt="Heuristic evaluation">
+                <p>Competitive analysis</p>
+                <img src="./images/music_competitors.jpg" alt="Comparative analysis for music streaming services">
+            </div>
+            <br><br>
+            <h1>Design Skills</h1>
+            <div class="design_images">
+                <p>Sketching and storyboards</p>
+                <img src="./images/sketching.PNG" alt="Sketches of design alternatives">
+                <p>Storymapping user tasks</p>
+                <img src="./images/storymapping.PNG" alt="Storymapping potential user tasks">
+                <p>Design rationale</p>
+                <img src="./images/qoc.PNG" alt="Design rationale">
+                <p>Paper prototyping</p>
+                <img src="./images/paper_prototype.jpg" alt="Paper prototyping">
+                <p>Digital protoyping</p>
+                <img src="./images/digital_prototype.PNG" alt="Digital prototyping on Adobe XD">
+           
+        -->
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+          <!-- Image text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <!-- Thumbnail images -->
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="./images/usability_testing.PNG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./images/interviews.PNG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./images/personas.PNG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./images/affinity_wall.PNG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./images/heuristic_evaluation.PNG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./images/music_competitors.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+        </div>
+    </main>
+
+	<footer>
+		<div class="footer_content">
+            <p><strong>Jamie Lee&copy;</strong></p>
+            <p>Thank you for taking the time to review my portfolio!</p>
+        </div>
+	</footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+</body>
+</html>
